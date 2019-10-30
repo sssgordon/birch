@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Route exact path="/" component={HomeContainer} />
       <Route exact path="/snow" component={SnowContainer} />
-      <Header />
     </div>
   );
 }
