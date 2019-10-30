@@ -2,181 +2,129 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 4,
-      "name": "Product 1",
-      "imageUrl": "https://picsum.photos/400?image=696",
+      "categoryId": 1,
+      "name": "Daniel",
+      "imageUrl": "https://images.pexels.com/photos/1856430/pexels-photo-1856430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
-      "price": "3432"
+      "price": "75"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "name": "Product 2",
-      "imageUrl": "https://picsum.photos/400?image=230",
+      "name": "Vera",
+      "imageUrl": "https://images.pexels.com/photos/2239673/pexels-photo-2239673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": false,
-      "price": "2374"
+      "price": "35"
     },
     {
       "id": 3,
-      "categoryId": 4,
-      "name": "Product 3",
-      "imageUrl": "https://picsum.photos/400?image=277",
+      "categoryId": 1,
+      "name": "Chewie",
+      "imageUrl": "https://images.pexels.com/photos/1011302/pexels-photo-1011302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": false,
-      "price": "1942"
+      "price": "45"
     },
     {
       "id": 4,
-      "categoryId": 3,
-      "name": "Product 4",
-      "imageUrl": "https://picsum.photos/400?image=963",
+      "categoryId": 1,
+      "name": "Fox",
+      "imageUrl": "https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
-      "price": "2367"
-    },
-    {
-      "id": 5,
-      "categoryId": 3,
-      "name": "Product 5",
-      "imageUrl": "https://picsum.photos/400?image=637",
-      "inStock": false,
-      "price": "1991"
+      "price": "25"
     },
     {
       "id": 6,
-      "categoryId": 3,
-      "name": "Product 6",
-      "imageUrl": "https://picsum.photos/400?image=811",
+      "categoryId": 2,
+      "name": "Clyde",
+      "imageUrl": "https://images.pexels.com/photos/1726770/pexels-photo-1726770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "1956"
+      "price": "75"
     },
     {
       "id": 7,
       "categoryId": 2,
-      "name": "Product 7",
-      "imageUrl": "https://picsum.photos/400?image=616",
+      "name": "Campbell",
+      "imageUrl": "https://images.pexels.com/photos/757482/pexels-photo-757482.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "2005"
+      "price": "95"
     },
     {
       "id": 8,
-      "categoryId": 4,
-      "name": "Product 8",
-      "imageUrl": "https://picsum.photos/400?image=522",
+      "categoryId": 2,
+      "name": "Bertie",
+      "imageUrl": "https://images.pexels.com/photos/371638/pexels-photo-371638.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1358"
+      "price": "20"
     },
     {
       "id": 9,
-      "categoryId": 3,
-      "name": "Product 9",
-      "imageUrl": "https://picsum.photos/400?image=615",
+      "categoryId": 2,
+      "name": "Harold",
+      "imageUrl": "https://images.pexels.com/photos/266998/pexels-photo-266998.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "2345"
+      "price": "35"
     },
     {
       "id": 10,
-      "categoryId": 1,
-      "name": "Product 10",
-      "imageUrl": "https://picsum.photos/400?image=601",
+      "categoryId": 2,
+      "name": "Bruce",
+      "imageUrl": "https://images.pexels.com/photos/3006860/pexels-photo-3006860.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1823"
+      "price": "65"
     },
     {
       "id": 11,
-      "categoryId": 1,
-      "name": "Product 11",
-      "imageUrl": "https://picsum.photos/400?image=314",
+      "categoryId": 3,
+      "name": "Bill",
+      "imageUrl": "https://images.pexels.com/photos/1974508/pexels-photo-1974508.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "1752"
+      "price": "35"
     },
     {
       "id": 12,
-      "categoryId": 4,
-      "name": "Product 12",
-      "imageUrl": "https://picsum.photos/400?image=442",
+      "categoryId": 3,
+      "name": "Gandalf",
+      "imageUrl": "https://images.pexels.com/photos/1520620/pexels-photo-1520620.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "2196"
+      "price": "30"
     },
     {
       "id": 13,
-      "categoryId": 4,
-      "name": "Product 13",
-      "imageUrl": "https://picsum.photos/400?image=338",
+      "categoryId": 3,
+      "name": "Nicolas",
+      "imageUrl": "https://images.pexels.com/photos/3126442/pexels-photo-3126442.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "3276"
+      "price": "25"
     },
     {
       "id": 14,
-      "categoryId": 4,
-      "name": "Product 14",
-      "imageUrl": "https://picsum.photos/400?image=739",
+      "categoryId": 3,
+      "name": "Morgan",
+      "imageUrl": "https://images.pexels.com/photos/3125195/pexels-photo-3125195.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1454"
+      "price": "20"
     },
     {
       "id": 15,
-      "categoryId": 4,
-      "name": "Product 15",
-      "imageUrl": "https://picsum.photos/400?image=901",
-      "inStock": false,
-      "price": "1368"
-    },
-    {
-      "id": 16,
       "categoryId": 3,
-      "name": "Product 16",
-      "imageUrl": "https://picsum.photos/400?image=372",
+      "name": "Orlando",
+      "imageUrl": "https://images.pexels.com/photos/3125197/pexels-photo-3125197.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "2087"
-    },
-    {
-      "id": 17,
-      "categoryId": 1,
-      "name": "Product 17",
-      "imageUrl": "https://picsum.photos/400?image=264",
-      "inStock": true,
-      "price": "2523"
-    },
-    {
-      "id": 18,
-      "categoryId": 1,
-      "name": "Product 18",
-      "imageUrl": "https://picsum.photos/400?image=133",
-      "inStock": true,
-      "price": "1118"
-    },
-    {
-      "id": 19,
-      "categoryId": 2,
-      "name": "Product 19",
-      "imageUrl": "https://picsum.photos/400?image=359",
-      "inStock": false,
-      "price": "1966"
-    },
-    {
-      "id": 20,
-      "categoryId": 1,
-      "name": "Product 20",
-      "imageUrl": "https://picsum.photos/400?image=354",
-      "inStock": false,
-      "price": "2569"
+      "price": "15"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Category 1"
+      "name": "Desert"
     },
     {
       "id": 2,
-      "name": "Category 2"
+      "name": "Snow"
     },
     {
       "id": 3,
-      "name": "Category 3"
-    },
-    {
-      "id": 4,
-      "name": "Category 4"
+      "name": "Rainforest"
     }
   ]
 }
