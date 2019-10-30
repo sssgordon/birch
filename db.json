@@ -14,7 +14,7 @@
       "name": "Vera",
       "imageUrl": "https://images.pexels.com/photos/2239673/pexels-photo-2239673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": false,
-      "price": "2374"
+      "price": "35"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "name": "Chewie",
       "imageUrl": "https://images.pexels.com/photos/1011302/pexels-photo-1011302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": false,
-      "price": "1942"
+      "price": "45"
     },
     {
       "id": 4,
@@ -30,95 +30,87 @@
       "name": "Fox",
       "imageUrl": "https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
-      "price": "2367"
-    },
-    {
-      "id": 5,
-      "categoryId": 1,
-      "name": "Selma",
-      "imageUrl": "https://images.pexels.com/photos/1022922/pexels-photo-1022922.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "inStock": false,
-      "price": "1991"
+      "price": "25"
     },
     {
       "id": 6,
-      "categoryId": 3,
+      "categoryId": 2,
       "name": "Clyde",
-      "imageUrl": "https://picsum.photos/400?image=811",
+      "imageUrl": "https://images.pexels.com/photos/1726770/pexels-photo-1726770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "1956"
+      "price": "75"
     },
     {
       "id": 7,
       "categoryId": 2,
       "name": "Campbell",
-      "imageUrl": "https://picsum.photos/400?image=616",
+      "imageUrl": "https://images.pexels.com/photos/757482/pexels-photo-757482.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "2005"
+      "price": "95"
     },
     {
       "id": 8,
-      "categoryId": 4,
+      "categoryId": 2,
       "name": "Bertie",
-      "imageUrl": "https://picsum.photos/400?image=522",
+      "imageUrl": "https://images.pexels.com/photos/371638/pexels-photo-371638.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1358"
+      "price": "20"
     },
     {
       "id": 9,
-      "categoryId": 3,
+      "categoryId": 2,
       "name": "Harold",
-      "imageUrl": "https://picsum.photos/400?image=615",
+      "imageUrl": "https://images.pexels.com/photos/266998/pexels-photo-266998.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "2345"
+      "price": "35"
     },
     {
       "id": 10,
-      "categoryId": 1,
+      "categoryId": 2,
       "name": "Bruce",
-      "imageUrl": "https://picsum.photos/400?image=601",
+      "imageUrl": "https://images.pexels.com/photos/3006860/pexels-photo-3006860.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1823"
+      "price": "65"
     },
     {
       "id": 11,
-      "categoryId": 1,
-      "name": "Bill Murray",
-      "imageUrl": "https://picsum.photos/400?image=314",
+      "categoryId": 3,
+      "name": "Bill",
+      "imageUrl": "https://images.pexels.com/photos/1974508/pexels-photo-1974508.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "1752"
+      "price": "35"
     },
     {
       "id": 12,
-      "categoryId": 4,
+      "categoryId": 3,
       "name": "Gandalf",
-      "imageUrl": "https://picsum.photos/400?image=442",
+      "imageUrl": "https://images.pexels.com/photos/1520620/pexels-photo-1520620.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "2196"
+      "price": "30"
     },
     {
       "id": 13,
-      "categoryId": 4,
+      "categoryId": 3,
       "name": "Nicolas",
-      "imageUrl": "https://picsum.photos/400?image=338",
+      "imageUrl": "https://images.pexels.com/photos/3126442/pexels-photo-3126442.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "3276"
+      "price": "25"
     },
     {
       "id": 14,
-      "categoryId": 4,
+      "categoryId": 3,
       "name": "Morgan",
-      "imageUrl": "https://picsum.photos/400?image=739",
+      "imageUrl": "https://images.pexels.com/photos/3125195/pexels-photo-3125195.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1454"
+      "price": "20"
     },
     {
       "id": 15,
-      "categoryId": 4,
+      "categoryId": 3,
       "name": "Orlando",
-      "imageUrl": "https://picsum.photos/400?image=901",
+      "imageUrl": "https://images.pexels.com/photos/3125197/pexels-photo-3125197.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "1368"
+      "price": "15"
     }
   ],
   "categories": [
