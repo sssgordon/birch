@@ -9,7 +9,7 @@ class HomeContainer extends Component {
   }
 
   render() {
-    console.log("RENDER HOMECONTAINER");
+    // console.log("RENDER HOMECONTAINER");
     if (this.props.plants.length === 0) {
       return <p>Loading...</p>;
     } else {
@@ -23,7 +23,7 @@ class HomeContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  console.log("MAP STATE TO HOMECONTAINER");
+  // console.log("MAP STATE TO HOMECONTAINER");
   return {
     plants: reduxState.plants
   };

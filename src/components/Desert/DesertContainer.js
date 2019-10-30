@@ -6,7 +6,7 @@ import { getDesertPlants } from "../../actions/plants";
 
 class DesertContainer extends Component {
   componentDidMount() {
-    console.log("DESERT COMPONENT DID MOUNT!");
+    console.log("DESERT COMPONENT DID MOUNT!", getDesertPlants);
     this.props.dispatch(getDesertPlants());
   }
 
