@@ -31,7 +31,8 @@
       "imageUrl": "https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
       "price": "25"
-    },    {
+    },    
+    {
       "id": 5,
       "categoryId": 1,
       "name": "Christopher",
