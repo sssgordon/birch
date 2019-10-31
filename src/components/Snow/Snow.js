@@ -9,6 +9,7 @@ export default function Snow(props) {
         {props.snowPlants.map(plant => {
           return (
             <Plant
+              selectPlant={props.selectPlant}
               name={plant.name}
               price={plant.price}
               imageUrl={plant.imageUrl}

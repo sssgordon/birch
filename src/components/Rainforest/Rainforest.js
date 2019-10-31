@@ -9,6 +9,7 @@ export default function Rainforest(props) {
         {props.rainforestPlants.map(plant => {
           return (
             <Plant
+              selectPlant={props.selectPlant}
               name={plant.name}
               price={plant.price}
               imageUrl={plant.imageUrl}

@@ -5,15 +5,16 @@ export default function Desert(props) {
   return (
     <div>
       <main>
-        {props.desertPlants.map(plants => {
+        {props.desertPlants.map(plant => {
           // console.log("mapping desert plants", plants)
           return (
             <Plant
-              name={plants.name}
-              price={plants.price}
-              imageUrl={plants.imageUrl}
-              id={plants.id}
-              key={plants.id}
+              selectPlant={props.selectPlant}
+              name={plant.name}
+              price={plant.price}
+              imageUrl={plant.imageUrl}
+              id={plant.id}
+              key={plant.id}
             />
           );
         })}
