@@ -31,6 +31,13 @@
       "imageUrl": "https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
       "price": "25"
+    },    {
+      "id": 5,
+      "categoryId": 1,
+      "name": "Christopher",
+      "imageUrl": "https://images.pexels.com/photos/219779/pexels-photo-219779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "inStock": true,
+      "price": "25"
     },
     {
       "id": 6,
@@ -111,33 +118,6 @@
       "imageUrl": "https://images.pexels.com/photos/3125197/pexels-photo-3125197.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
       "price": "15"
-    },
-    {
-      "id": 16
-    },
-    {
-      "id": 17
-    },
-    {
-      "id": 18
-    },
-    {
-      "id": 19
-    },
-    {
-      "id": 20
-    },
-    {
-      "id": 21
-    },
-    {
-      "id": 22
-    },
-    {
-      "id": 23
-    },
-    {
-      "id": 24
     }
   ],
   "categories": [
