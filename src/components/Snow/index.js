@@ -25,6 +25,7 @@ class SnowContainer extends Component {
           <Snow
             snowPlants={this.props.snowPlants}
             selectPlant={this.selectPlant}
+            path={this.props.match.path}
           />
         </div>
       );

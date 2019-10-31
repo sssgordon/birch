@@ -6,6 +6,7 @@ export default function Basket(props) {
     <div>
       {props.selectedPlants.map(plant => (
         <Plant
+          path={props.path}
           name={plant.name}
           price={plant.price}
           imageUrl={plant.imageUrl}

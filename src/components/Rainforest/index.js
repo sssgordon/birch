@@ -27,6 +27,7 @@ class RainforestContainer extends Component {
           <Rainforest
             rainforestPlants={this.props.rainforestPlants}
             selectPlant={this.selectPlant}
+            path={this.props.match.path}
           />
         </div>
       );

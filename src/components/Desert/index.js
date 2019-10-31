@@ -24,6 +24,7 @@ class DesertContainer extends Component {
           <Desert
             desertPlants={this.props.desertPlants}
             selectPlant={this.selectPlant}
+            path={this.props.match.path}
           />
         </div>
       );
