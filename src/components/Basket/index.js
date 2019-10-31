@@ -4,12 +4,16 @@ import { connect } from "react-redux";
 
 class BasketContainer extends Component {
   render() {
+    console.log(this.props.match.params);
     if (this.props.basket.length === 0) {
       return <p>Loading...</p>;
     } else {
       return (
         <div>
-          <Basket selectedPlants={this.props.basket} />
+          <Basket
+            selectedPlants={this.props.basket}
+            path={this.props.match.path}
+          />
         </div>
       );
     }

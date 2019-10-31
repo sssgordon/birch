@@ -22,7 +22,11 @@ class HomeContainer extends Component {
     } else {
       return (
         <div>
-          <Home plants={this.props.plants} selectPlant={this.selectPlant} />
+          <Home
+            plants={this.props.plants}
+            path={this.props.match.path}
+            selectPlant={this.selectPlant}
+          />
         </div>
       );
     }

@@ -9,6 +9,7 @@ export default function Home(props) {
         {props.plants.map(plant => {
           return (
             <Plant
+              path={props.path}
               selectPlant={props.selectPlant}
               name={plant.name}
               price={plant.price}

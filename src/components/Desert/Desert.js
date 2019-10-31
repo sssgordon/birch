@@ -9,6 +9,7 @@ export default function Desert(props) {
           // console.log("mapping desert plants", plants)
           return (
             <Plant
+              path={props.path}
               selectPlant={props.selectPlant}
               name={plant.name}
               price={plant.price}
