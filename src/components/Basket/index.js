@@ -9,12 +9,15 @@ class BasketContainer extends Component {
   };
 
   render() {
-    console.log(this.props.match.params);
+    // console.log(this.props.match.params);
+    // this.props.basket.map(plant => plant.price).reduce((acc, currentPlant) => acc + currentPlant, 0)
+
     if (this.props.basket.length === 0) {
       return <p>Loading...</p>;
     } else {
       return (
         <div>
+          <p>€ {this.props.basket.map(plant => parseInt(plant.price)).reduce((acc, currentPlant) => acc + currentPlant, 0)}</p>
           <Basket
             deletePlant={this.deletePlant}
             selectedPlants={this.props.basket}
