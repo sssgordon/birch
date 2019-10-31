@@ -1,8 +1,13 @@
 import React, { Component } from "react";
 import Basket from "./Basket";
 import { connect } from "react-redux";
+import { removePlant } from "../../actions/basket";
 
 class BasketContainer extends Component {
+  deletePlant = id => {
+    return this.props.dispatch(removePlant(id));
+  };
+
   render() {
     console.log(this.props.match.params);
     if (this.props.basket.length === 0) {
@@ -11,6 +16,7 @@ class BasketContainer extends Component {
       return (
         <div>
           <Basket
+            deletePlant={this.deletePlant}
             selectedPlants={this.props.basket}
             path={this.props.match.path}
           />

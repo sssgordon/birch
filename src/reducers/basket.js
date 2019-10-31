@@ -3,8 +3,8 @@ export default (state = [], action = {}) => {
   switch (action.type) {
     case "ADD_PLANT":
       return [...state, { ...action.payload }];
-    case "SET_BASKET_PLANT":
-      return action.payload.map(plant => ({ ...plant }));
+    case "REMOVE_PLANT":
+      return state.filter(plant => plant.id !== action.payload);
     default:
       return state;
   }

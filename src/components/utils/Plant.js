@@ -4,6 +4,7 @@ export default function Plant(props) {
   if (props.path === "/basket") {
     return (
       <div>
+        <button onClick={() => props.deletePlant(props.id)}>X</button>
         <img src={props.imageUrl} />
         <h4>{props.name}</h4>
         <h6>{props.price}</h6>
