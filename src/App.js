@@ -1,10 +1,14 @@
 import React from "react";
 import "./App.css";
-import HomeContainer from "./components/Home";
 import { Route } from "react-router-dom";
-import SnowContainer from "./components/Snow";
 import Header from "./components/navigationBar/navigationbar";
+
+// Containers
+import HomeContainer from "./components/Home";
+import SnowContainer from "./components/Snow";
 import DesertContainer from "./components/Desert";
+import RainforestContainer from "./components/Rainforest";
+
 
 function App() {
   return (
@@ -13,6 +17,7 @@ function App() {
       <Route exact path="/" component={HomeContainer} />
       <Route exact path="/snow" component={SnowContainer} />
       <Route exact path="/desert" component={DesertContainer} />
+      <Route exact path="/rainforest" component={RainforestContainer} />
     </div>
   );
 }

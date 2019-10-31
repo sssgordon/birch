@@ -5,7 +5,7 @@ import { getSnowPlants } from "../../actions/plants";
 
 class SnowContainer extends Component {
   componentDidMount() {
-    console.log("SNOW COMPONENT DID MOUNT!");
+    // console.log("SNOW COMPONENT DID MOUNT!");
     this.props.dispatch(getSnowPlants());
   }
 
@@ -23,7 +23,7 @@ class SnowContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  console.log("MAP STATE TO SNOW CONTAINER");
+  // console.log("MAP STATE TO SNOW CONTAINER");
   return {
     snowPlants: reduxState.snow
   };
