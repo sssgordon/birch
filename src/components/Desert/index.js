@@ -1,12 +1,10 @@
-  
-import React, { Component } from "react";
+  import React, { Component } from "react";
 import { connect } from "react-redux";
 import Desert from "./Desert";
 import { getDesertPlants } from "../../actions/plants";
 
 class DesertContainer extends Component {
   componentDidMount() {
-    console.log("DESERT COMPONENT DID MOUNT!", getDesertPlants);
     this.props.dispatch(getDesertPlants());
   }
 
@@ -24,7 +22,7 @@ class DesertContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  console.log("MST DESERT CONTAINER & reduxState = 0??", reduxState);
+  // console.log("MSTP reduxState", reduxState);
   return {
     desertPlants: reduxState.desert
   };

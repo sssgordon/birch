@@ -1,15 +1,12 @@
 import React from "react";
 import Plant from "../utils/Plant";
-import Header from "../navigationBar/navigationbar";
 
-export default function DesertPlants(props) {
+export default function Desert(props) {
   return (
     <div>
-      <Header />
       <main>
-        {console.log('accessing the plants in Desert', props.desertPlants)};
-        
         {props.desertPlants.map(plants => {
+          // console.log("mapping desert plants", plants)
           return (
             <Plant
               name={plants.name}
