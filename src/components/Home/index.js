@@ -2,8 +2,15 @@ import React, { Component } from "react";
 import Home from "./Home";
 import { connect } from "react-redux";
 import { getPlants } from "../../actions/plants";
+import { addPlant } from "../../actions/basket";
 
 class HomeContainer extends Component {
+  selectPlant = id => {
+    return this.props.dispatch(
+      addPlant(this.props.plants.find(plant => plant.id === id))
+    );
+  };
+
   componentDidMount() {
     this.props.dispatch(getPlants());
   }
@@ -15,7 +22,7 @@ class HomeContainer extends Component {
     } else {
       return (
         <div>
-          <Home plants={this.props.plants} />
+          <Home plants={this.props.plants} selectPlant={this.selectPlant} />
         </div>
       );
     }

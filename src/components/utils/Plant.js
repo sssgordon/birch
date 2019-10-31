@@ -6,6 +6,7 @@ export default function Plant(props) {
       <img src={props.imageUrl} />
       <h4>{props.name}</h4>
       <h6>{props.price}</h6>
+      <button onClick={() => props.selectPlant(props.id)}>Add to basket</button>
     </div>
   );
 }
