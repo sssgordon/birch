@@ -1,7 +1,7 @@
 export default (state = [], action = {}) => {
-  // console.log("REDUCER PLANTS!");
   switch (action.type) {
-    case "SET_PLANTS":
+    case "SET_DESERT_PLANTS":
+        // console.log("REDUCER DESERT!", action);
       return action.payload.map(plant => ({ ...plant }));
     default:
       return state;
