@@ -17,7 +17,7 @@ export default function About() {
         <div>
           <h1>Plants from around the globe.</h1>
           <p>Bla bla bla...</p>
-          <img src="https://images.pexels.com/photos/998653/pexels-photo-998653.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+          <img src="https://images.pexels.com/photos/1731660/pexels-photo-1731660.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
         </div>
       </main>
     </div>

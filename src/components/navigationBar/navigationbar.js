@@ -6,11 +6,10 @@ export default class Header extends React.Component {
     return (
       <div className="navbar-div">
         <header className="section-navbar" name="navigation">
-          
           <Link to="/">Home </Link>
           <Link to="/about">About </Link>
           <Link to="/desert">Desert </Link>
-          <Link to="/snow">Snowy </Link>
+          <Link to="/snow">Snow </Link>
           <Link to="/rainforest">Rainforest </Link>
           <Link to="/basket">
             <button className="basket-button">

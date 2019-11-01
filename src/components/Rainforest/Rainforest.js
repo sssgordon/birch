@@ -12,6 +12,7 @@ export default function Rainforest(props) {
               path={props.path}
               selectPlant={props.selectPlant}
               name={plant.name}
+              description={plant.description}
               price={plant.price}
               imageUrl={plant.imageUrl}
               id={plant.id}

@@ -4,94 +4,106 @@
       "id": 1,
       "categoryId": 1,
       "name": "Daniel",
+      "description": "Hedgehog cactus",
       "imageUrl": "https://images.pexels.com/photos/1856430/pexels-photo-1856430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
-      "price": "75"
+      "price": "45"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "name": "Vera",
-      "imageUrl": "https://images.pexels.com/photos/2239673/pexels-photo-2239673.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Francine",
+      "description": "Aloe vera",
+      "imageUrl": "https://images.pexels.com/photos/1533960/pexels-photo-1533960.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": false,
-      "price": "35"
+      "price": "75"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "name": "Chewie",
-      "imageUrl": "https://images.pexels.com/photos/1011302/pexels-photo-1011302.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Wilfred",
+      "description": "Succulent",
+      "imageUrl": "https://images.pexels.com/photos/1022922/pexels-photo-1022922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "inStock": false,
       "price": "45"
     },
     {
       "id": 4,
       "categoryId": 1,
-      "name": "Fox",
-      "imageUrl": "https://images.pexels.com/photos/1382394/pexels-photo-1382394.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Annabelle",
+      "description": "Bougainvillea",
+      "imageUrl": "https://images.pexels.com/photos/2516654/pexels-photo-2516654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
       "price": "25"
-    },    
+    },
     {
       "id": 5,
       "categoryId": 1,
-      "name": "Christopher",
-      "imageUrl": "https://images.pexels.com/photos/219779/pexels-photo-219779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "name": "Roan",
+      "description": "Palm frond",
+      "imageUrl": "https://images.pexels.com/photos/1999579/pexels-photo-1999579.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "inStock": true,
       "price": "25"
     },
     {
       "id": 6,
       "categoryId": 2,
-      "name": "Clyde",
-      "imageUrl": "https://images.pexels.com/photos/1726770/pexels-photo-1726770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "name": "Atticus",
+      "description": "Conifer",
+      "imageUrl": "https://images.pexels.com/photos/2814219/pexels-photo-2814219.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
       "inStock": true,
-      "price": "75"
+      "price": "225"
     },
     {
       "id": 7,
       "categoryId": 2,
       "name": "Campbell",
+      "description": "Scots pine",
       "imageUrl": "https://images.pexels.com/photos/757482/pexels-photo-757482.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "95"
+      "price": "175"
     },
     {
       "id": 8,
       "categoryId": 2,
       "name": "Bertie",
+      "description": "Cotton flower",
       "imageUrl": "https://images.pexels.com/photos/371638/pexels-photo-371638.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "20"
+      "price": "35"
     },
     {
       "id": 9,
       "categoryId": 2,
       "name": "Harold",
+      "description": "Dandelion",
       "imageUrl": "https://images.pexels.com/photos/266998/pexels-photo-266998.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "35"
+      "price": "25"
     },
     {
       "id": 10,
       "categoryId": 2,
       "name": "Bruce",
+      "description": "Norway alder",
       "imageUrl": "https://images.pexels.com/photos/3006860/pexels-photo-3006860.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "65"
+      "price": "75"
     },
     {
       "id": 11,
       "categoryId": 3,
       "name": "Bill",
+      "description": "Swiss cheese",
       "imageUrl": "https://images.pexels.com/photos/1974508/pexels-photo-1974508.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
-      "price": "35"
+      "price": "45"
     },
     {
       "id": 12,
       "categoryId": 3,
       "name": "Gandalf",
+      "description": "Spathiphyllum",
       "imageUrl": "https://images.pexels.com/photos/1520620/pexels-photo-1520620.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
       "price": "30"
@@ -100,6 +112,7 @@
       "id": 13,
       "categoryId": 3,
       "name": "Nicolas",
+      "description": "Areca",
       "imageUrl": "https://images.pexels.com/photos/3126442/pexels-photo-3126442.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": true,
       "price": "25"
@@ -108,17 +121,19 @@
       "id": 14,
       "categoryId": 3,
       "name": "Morgan",
+      "description": "Swiss cheese",
       "imageUrl": "https://images.pexels.com/photos/3125195/pexels-photo-3125195.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "20"
+      "price": "40"
     },
     {
       "id": 15,
       "categoryId": 3,
       "name": "Orlando",
+      "description": "Swiss cheese",
       "imageUrl": "https://images.pexels.com/photos/3125197/pexels-photo-3125197.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       "inStock": false,
-      "price": "15"
+      "price": "35"
     }
   ],
   "categories": [
