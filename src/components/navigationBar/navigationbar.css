@@ -7,6 +7,7 @@
   background-color: rgb(203,  203,  203);
 }
 
+
 .navbar-div {
   border: 1px solid black;
   border-radius: 5px;
@@ -22,6 +23,7 @@
   display: flex;
   justify-content: space-around;
 }
+
 
 .section-navbar a {
   text-decoration: none;

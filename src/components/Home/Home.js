@@ -4,7 +4,7 @@ import "./Home.css";
 
 export default function Home(props) {
   return (
-    <div>
+    <div className="home">
       <main>
         <h1 className="title">PLANTS FOR THE ADVENTUROUS</h1>
         <img

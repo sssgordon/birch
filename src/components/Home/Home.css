@@ -1,26 +1,34 @@
-main {
+.home {
+  background-color: whitesmoke;
+}
+
+.home main {
   position: relative;
   width: 950px;
   margin: 0 auto;
+  background-color: white;
 
-  border: dotted lightgray 1px;
+  /* border: dotted lightgray 1px; */
 }
 
-.title {
+.home .title {
   position: absolute;
-  top: 280px;
-  left: 400px;
-  background: white;
-  /* background-size: 200px; */
+  display: inline;
+  top: 130px;
+  left: 140px;
+  font-size: 40px;
+  background-color: white;
+  /* background-size: 20px; */
+  padding: 10px;
 }
 
-.banner {
+.home .banner {
   width: 100%;
   margin: 0 auto;
   display: block;
 }
 
-.plants-display {
+.home .plants-display {
   width: 100%;
   /* padding: 30px; */
 
@@ -29,5 +37,5 @@ main {
   justify-content: center;
   align-content: flex-start;
 
-  border: dotted lightgray 1px;
+  /* border: dotted lightgray 1px; */
 }

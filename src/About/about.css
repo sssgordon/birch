@@ -1,0 +1,29 @@
+.about {
+  background-color: whitesmoke;
+}
+
+.about article {
+  width: 950px;
+  margin: 50px auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+
+.about article .about-content {
+  padding: 100px 0 0 30px;
+}
+
+.about article.reverse {
+  width: 950px;
+  margin: 20px auto;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.about article.reverse .about-content {
+  padding: 100px 30px 0 20px;
+}
