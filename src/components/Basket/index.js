@@ -16,13 +16,15 @@ class BasketContainer extends Component {
       return <p>Your basket is currently empty.</p>;
     } else {
       return (
-        <div>
+        <div className="basket">
           <Basket
             deletePlant={this.deletePlant}
             selectedPlants={this.props.basket}
             path={this.props.match.path}
-          /><br />
-          <p className="totalAmount"> The total amount is: € 
+          />
+          <p className="totalAmount">
+            {" "}
+            The total amount is: €
             {this.props.basket
               .map(plant => parseInt(plant.price))
               .reduce((acc, currentPlant) => acc + currentPlant, 0)}

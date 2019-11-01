@@ -1,4 +1,4 @@
-.basketplant {
+/* .basketplant {
   width: 350px;
   height: 500px;
   margin: 30px;
@@ -8,7 +8,7 @@
   width: 200px;
 }
 
-.section-basketplants {
+.section-basket {
   border: solid lightgray 1px;
   justify-content: space-around;
   align-items: center;
@@ -32,4 +32,15 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+} */
+
+.section-basketplants {
+}
+
+.basket {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-plant {
 }
