@@ -1,4 +1,4 @@
-.home main {
+.snow main {
   position: relative;
   width: 950px;
   margin: 0 auto;
@@ -6,7 +6,7 @@
   border: dotted lightgray 1px;
 }
 
-.home .title {
+.snow .title {
   position: absolute;
   display: inline;
   top: 270px;
@@ -16,13 +16,13 @@
   padding: 10px;
 }
 
-.home .banner {
+.snow .banner {
   width: 100%;
   margin: 0 auto;
   display: block;
 }
 
-.home .plants-display {
+.snow .plants-display {
   width: 100%;
   /* padding: 30px; */
 
