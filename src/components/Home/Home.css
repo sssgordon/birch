@@ -1,18 +1,24 @@
+.home {
+  background-color: whitesmoke;
+}
+
 .home main {
   position: relative;
   width: 950px;
   margin: 0 auto;
+  background-color: white;
 
-  border: dotted lightgray 1px;
+  /* border: dotted lightgray 1px; */
 }
 
 .home .title {
   position: absolute;
   display: inline;
-  top: 270px;
-  left: 390px;
+  top: 130px;
+  left: 140px;
+  font-size: 40px;
   background-color: white;
-  background-size: 20px;
+  /* background-size: 20px; */
   padding: 10px;
 }
 
@@ -31,5 +37,5 @@
   justify-content: center;
   align-content: flex-start;
 
-  border: dotted lightgray 1px;
+  /* border: dotted lightgray 1px; */
 }

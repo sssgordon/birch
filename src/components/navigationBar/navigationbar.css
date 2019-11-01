@@ -1,4 +1,3 @@
-
 .navbar-div  {
   border: 1px solid black;
   border-radius: 5px;
@@ -8,7 +7,7 @@
   background-color: rgb(203,  203,  203);
 }
 
-.section-navbar  {
+.navbar-div .section-navbar  {
   text-transform: uppercase;
   list-style-type: none;
   text-align: center;
@@ -16,24 +15,11 @@
   justify-content: space-around;
 }
 
-.section-navbar a  {
+.navbar-div .section-navbar a  {
   text-decoration: none;
   color: black;
 }
 
-.section-navbar a:hover {
-    color: seagreen;
+.navbar-div .section-navbar a:hover {
+  color: seagreen;
 }
-
-/* .basket-button  {
-    float: right;
-  position: relative;
-   left: -1px;
-      bottom: -8px;
-      width: 100.5%;
-      height: 25px;
-      border: solid black 1.8px;
-      background: white;
-      font-size: 15px;
-      cursor: pointer;
-} */

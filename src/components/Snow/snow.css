@@ -9,14 +9,23 @@
 .snow .title {
   position: absolute;
   display: inline;
-  top: 270px;
+  top: 120px;
   left: 390px;
+  font-size: 50px;
   background-color: white;
   background-size: 20px;
   padding: 10px;
+  z-index: 99;
 }
 
+.snow .banner-container {
+  width: 100%;
+  overflow: hidden;
+  height: 380px;
+}
 .snow .banner {
+  position: relative;
+  bottom: 190px;
   width: 100%;
   margin: 0 auto;
   display: block;
