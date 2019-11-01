@@ -17,17 +17,16 @@ class BasketContainer extends Component {
     } else {
       return (
         <div>
-          <p>
-            €{" "}
-            {this.props.basket
-              .map(plant => parseInt(plant.price))
-              .reduce((acc, currentPlant) => acc + currentPlant, 0)}
-          </p>
           <Basket
             deletePlant={this.deletePlant}
             selectedPlants={this.props.basket}
             path={this.props.match.path}
-          />
+          /><br />
+          <p className="totalAmount"> The total amount is: € 
+            {this.props.basket
+              .map(plant => parseInt(plant.price))
+              .reduce((acc, currentPlant) => acc + currentPlant, 0)}
+          </p>
         </div>
       );
     }

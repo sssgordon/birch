@@ -1,9 +1,11 @@
 import React from "react";
 import Plant from "../utils/Plant";
+import './Basket.css'
 
 export default function Basket(props) {
   return (
-    <div>
+    <div className="basketplant">
+      <div className="section-basketplants">
       {props.selectedPlants.map(plant => (
         <Plant
           deletePlant={props.deletePlant}
@@ -15,6 +17,7 @@ export default function Basket(props) {
           key={plant.id}
         />
       ))}
+      </div>
     </div>
   );
 }
