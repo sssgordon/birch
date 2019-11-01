@@ -8,10 +8,12 @@ main {
 
 .title {
   position: absolute;
-  top: 280px;
-  left: 400px;
-  background: white;
-  /* background-size: 200px; */
+  display: inline;
+  top: 270px;
+  left: 390px;
+  background-color: white;
+  background-size: 20px;
+  padding: 10px;
 }
 
 .banner {
