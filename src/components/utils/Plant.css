@@ -1,0 +1,42 @@
+.plant {
+  width: 350px;
+  height: 500px;
+  border: solid lightgray 1px;
+  margin: 30px;
+}
+
+.plant .image-container {
+  height: 330px;
+  overflow: hidden;
+}
+
+.plant img {
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.plant-info {
+  padding: 15px 15px 15px 25px;
+  border-top: solid lightgray 1px;
+}
+
+.plant-info h2,
+h4,
+h5 {
+  margin: 5px 0;
+}
+
+.plant .add-to-basket {
+  position: relative;
+  left: -1px;
+  bottom: -8px;
+  width: 100.5%;
+  height: 52px;
+  border: solid black 1.8px;
+  background: white;
+  font-size: 20px;
+  cursor: pointer;
+}
