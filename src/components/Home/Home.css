@@ -1,0 +1,30 @@
+main {
+  width: 950px;
+  margin: 0 auto;
+
+  border: dotted lightgray 1px;
+}
+
+.title {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.plants-display {
+  width: 100%;
+  /* padding: 30px; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+
+  border: dotted lightgray 1px;
+}

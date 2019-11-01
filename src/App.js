@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { Route } from "react-router-dom";
 import Header from "./components/navigationBar/navigationbar";
 import About from "./About/index";
@@ -13,7 +12,7 @@ import RainforestContainer from "./components/Rainforest";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
       <Route exact path="/" component={HomeContainer} />
       <Route exact path="/about" component={About} />
