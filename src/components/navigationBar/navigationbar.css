@@ -1,39 +1,39 @@
 
 .navbar-div  {
-  border: 1px solid black;
-  border-radius: 5px;
-  overflow: hidden;
-  padding: 14px 16px;
-  font-size: 20px;
-  background-color: rgb(203,  203,  203);
-}
-
-.section-navbar  {
-  text-transform: uppercase;
-  list-style-type: none;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-}
-
-.section-navbar a  {
-  text-decoration: none;
-  color: black;
-}
-
-.section-navbar a:hover {
-    color: seagreen;
-}
-
-/* .basket-button  {
-    float: right;
-  position: relative;
-   left: -1px;
-      bottom: -8px;
-      width: 100.5%;
-      height: 25px;
-      border: solid black 1.8px;
-      background: white;
-      font-size: 15px;
-      cursor: pointer;
-} */
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 14px 16px;
+    font-size: 20px;
+    background-color: rgb(203,  203,  203);
+  }
+  
+  .section-navbar  {
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .section-navbar a  {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .section-navbar a:hover {
+      color: seagreen;
+  }
+  
+  /* .basket-button  {
+      float: right;
+    position: relative;
+     left: -1px;
+        bottom: -8px;
+        width: 100.5%;
+        height: 25px;
+        border: solid black 1.8px;
+        background: white;
+        font-size: 15px;
+        cursor: pointer;
+  } */

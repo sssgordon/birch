@@ -1,0 +1,35 @@
+.basketplant {
+  width: 350px;
+  height: 500px;
+  margin: 30px;
+}
+
+.basketplant img {
+  width: 200px;
+}
+
+.section-basketplants {
+  border: solid lightgray 1px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delete-plant {
+  position: relative;
+  bottom: -8px;
+  width: 200px;
+  height: 52px;
+  border: none;
+  background: #439946;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.totalAmount {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
