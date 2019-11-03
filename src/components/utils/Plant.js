@@ -38,6 +38,13 @@ export default function Plant(props) {
         >
           Add to basket
         </button>
+        <button
+          className="add-to-wishlist"
+          onClick={() => props.selectWishPlant(props.id)}
+        >
+          Add to wishlist
+        </button>
+
       </div>
     );
   }
