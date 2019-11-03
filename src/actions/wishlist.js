@@ -1,6 +1,5 @@
 export const ADD_WISH_PLANT = "ADD_WISH_PLANT";
 export function addWishPlant(plant) {
-  // console.log("ACTION: ADD PLANT TO WISHLIST!");
   return {
     type: ADD_WISH_PLANT,
     payload: plant

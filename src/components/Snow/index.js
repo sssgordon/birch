@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Snow from "./Snow";
 import { getSnowPlants } from "../../actions/plants";
 import { addPlant } from "../../actions/basket";
+import { addWishPlant} from '../../actions/wishlist';
 
 class SnowContainer extends Component {
   selectPlant = id => {
@@ -11,8 +12,13 @@ class SnowContainer extends Component {
     );
   };
 
+  selectWishPlant = id => {
+    return this.props.dispatch(
+      addWishPlant(this.props.snowPlants.find(plant => plant.id === id))
+    );
+  };
+
   componentDidMount() {
-    // console.log("SNOW COMPONENT DID MOUNT!");
     this.props.dispatch(getSnowPlants());
   }
 
@@ -25,6 +31,7 @@ class SnowContainer extends Component {
           <Snow
             snowPlants={this.props.snowPlants}
             selectPlant={this.selectPlant}
+            selectWishPlant={this.selectWishPlant}
             path={this.props.match.path}
           />
         </div>

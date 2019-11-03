@@ -1,24 +1,21 @@
 import React, { Component } from "react";
 import Wishlist from "./Wishlist";
 import { connect } from "react-redux";
-// import { removePlant } from "../../actions/basket";
+import { removeWishPlant } from "../../actions/wishlist";
 
 class WishlistContainer extends Component {
-//   deletePlant = id => {
-//     return this.props.dispatch(removePlant(id));
-//   };
+  deleteWishPlant = id => {
+    return this.props.dispatch(removeWishPlant(id))
+  }
 
   render() {
-    console.log('logging from index', this.props.match.params);
-    // this.props.basket.map(plant => plant.price).reduce((acc, currentPlant) => acc + currentPlant, 0)
-
     if (this.props.wishlist.length === 0) {
       return <p>Your wishlist is currently empty.</p>;
     } else {
       return ( 
         <div className="wishlist">
           <Wishlist
-            // deletePlant={this.deletePlant}
+            deleteWishPlant={this.deleteWishPlant}
             selectedWishPlants={this.props.wishlist}
             path={this.props.match.path}
           />
@@ -36,7 +33,7 @@ class WishlistContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  console.log("MAP STATE TO WISHLIST CONTAINER");
+  // console.log("MAP STATE TO WISHLIST CONTAINER");
   return {
     wishlist: reduxState.wishlist
   };
