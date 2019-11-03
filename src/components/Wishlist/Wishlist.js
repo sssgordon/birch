@@ -8,7 +8,7 @@ export default function Wishlist(props) {
       <div className="wishlist-plants">
         {props.selectedWishPlants.map(plant => (
           <Plant
-            // deletePlant={props.deletePlant}
+            deleteWishPlant={props.deleteWishPlant}
             path={props.path}
             name={plant.name}
             price={plant.price}

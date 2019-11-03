@@ -3,8 +3,8 @@ export default (state = [], action = {}) => {
     switch (action.type) {
       case "ADD_WISH_PLANT":
         return [...state, { ...action.payload }];
-    //   case "REMOVE_WISH_PLANT":
-    //     return state.filter(plant => plant.id !== action.payload);
+      case "REMOVE_WISH_PLANT":
+        return state.filter(plant => plant.id !== action.payload);
       default:
         return state;
     }
