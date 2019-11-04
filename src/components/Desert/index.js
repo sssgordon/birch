@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import Desert from "./Desert";
 import { getDesertPlants } from "../../actions/plants";
 import { addPlant } from "../../actions/basket";
+import { addWishPlant } from "../../actions/wishlist";
 
 class DesertContainer extends Component {
   selectPlant = id => {
@@ -11,6 +12,11 @@ class DesertContainer extends Component {
     );
   };
 
+  selectWishPlant = id => {
+    return this.props.dispatch(
+      addWishPlant(this.props.desertPlants.find(plant => plant.id === id))
+    );
+  };
   componentDidMount() {
     this.props.dispatch(getDesertPlants());
   }
@@ -24,6 +30,7 @@ class DesertContainer extends Component {
           <Desert
             desertPlants={this.props.desertPlants}
             selectPlant={this.selectPlant}
+            selectWishPlant={this.selectWishPlant}
             path={this.props.match.path}
           />
         </div>

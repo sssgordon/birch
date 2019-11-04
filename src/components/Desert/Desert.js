@@ -20,6 +20,7 @@ export default function Desert(props) {
               <Plant
                 path={props.path}
                 selectPlant={props.selectPlant}
+                selectWishPlant={props.selectWishPlant}
                 name={plant.name}
                 price={plant.price}
                 description={plant.description}

@@ -22,7 +22,7 @@
   color: seagreen;
 }
 
-.basket-button {
+.basket-button, .wishlist-button {
   background-color: white;
   border: solid black 1px;
   font-size: 20px;
@@ -33,5 +33,10 @@
 
 .basket-button:hover {
   background-color: #439946;
+  color: white;
+}
+
+.wishlist-button:hover {
+  background-color: #49c24d;
   color: white;
 }

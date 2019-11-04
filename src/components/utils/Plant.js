@@ -21,6 +21,25 @@ export default function Plant(props) {
         </button>
       </div>
     );
+  } else if (props.path === "/wishlist") {
+    return (
+      <div className="plant">
+        <div className="image-container">
+          <img src={props.imageUrl} />
+        </div>
+        <div className="plant-info">
+          <h2>{props.name}</h2>
+          <h5>{props.description}</h5>
+          <h4>{props.price}</h4>
+        </div>
+        <button
+          className="delete-wish-plant"
+          onClick={() => props.deleteWishPlant(props.id)}
+        >
+          Delete from wishlist
+        </button>
+      </div>
+    );
   } else {
     return (
       <div className="plant">
@@ -38,6 +57,13 @@ export default function Plant(props) {
         >
           Add to basket
         </button>
+        <button
+          className="add-to-wishlist"
+          onClick={() => props.selectWishPlant(props.id)}
+        >
+          Add to wishlist
+        </button>
+
       </div>
     );
   }

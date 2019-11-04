@@ -3,6 +3,7 @@ import { Route } from "react-router-dom";
 import Header from "./components/navigationBar/navigationbar";
 import About from "./About/index";
 import Basket from "./components/Basket";
+import Wishlist from './components/Wishlist'
 
 // Containers
 import HomeContainer from "./components/Home";
@@ -20,6 +21,8 @@ function App() {
       <Route exact path="/desert" component={DesertContainer} />
       <Route exact path="/rainforest" component={RainforestContainer} />
       <Route exact path="/basket" component={Basket} />
+      <Route exact path="/wishlist" component={Wishlist} />
+
     </div>
   );
 }
