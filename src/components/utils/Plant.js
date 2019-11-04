@@ -7,12 +7,16 @@ export default function Plant(props) {
     return (
       <div className="plant">
         <div className="image-container">
-          <img src={props.imageUrl} />
+          <Link to={`/product-details/${props.name}`}>
+            <img src={props.imageUrl} />
+          </Link>
         </div>
         <div className="plant-info">
-          <h2>{props.name}</h2>
-          <h5>{props.description}</h5>
-          <h4>{props.price}</h4>
+          <Link to={`/product-details/${props.name}`}>
+            <h2>{props.name}</h2>
+            <h5>{props.description}</h5>
+            <h4>{props.price}</h4>
+          </Link>
         </div>
         <button
           className="delete-plant"
