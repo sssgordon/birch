@@ -9,7 +9,7 @@ export default function Home(props) {
         <h1 className="title">PLANTS FOR THE ADVENTUROUS</h1>
         <img
           className="banner"
-          src="https://images.pexels.com/photos/2689558/pexels-photo-2689558.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+          src="http://localhost:3000/assets/images/home.jpeg"
         />
         <div className="plants-display">
           {props.plants.map(plant => {
