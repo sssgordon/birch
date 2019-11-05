@@ -87,7 +87,7 @@ export function getRainforestPlants() {
       .then(res => res.json())
       .then(data => data.filter(plant => plant.categoryId === 3))
       .then(filteredData => {
-        console.log("FETCH rainforest plants!", filteredData);
+        // console.log("FETCH rainforest plants!", filteredData);
         dispatch(setRainforestPlants(filteredData));
       });
   };

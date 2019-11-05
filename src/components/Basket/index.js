@@ -36,7 +36,7 @@ class BasketContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  console.log("MAP STATE TO BASKET CONTAINER");
+  // console.log("MAP STATE TO BASKET CONTAINER");
   return {
     basket: reduxState.basket
   };

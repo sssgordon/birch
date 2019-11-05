@@ -27,7 +27,7 @@ h5 {
   margin: 5px 0;
 }
 
-.plant .add-to-basket {
+.plant .add-to-basket, .add-to-wishlist {
   position: relative;
   bottom: -8px;
   width: 100%;
@@ -41,5 +41,9 @@ h5 {
 }
 
 .plant .add-to-basket:hover {
+  background: #43ac46;
+}
+
+.plant .add-to-wishlist:hover {
   background: #43ac46;
 }

@@ -3,11 +3,18 @@ import { connect } from "react-redux";
 import Rainforest from "./Rainforest";
 import { getRainforestPlants } from "../../actions/plants";
 import { addPlant } from "../../actions/basket";
+import { addWishPlant } from "../../actions/wishlist";
 
 class RainforestContainer extends Component {
   selectPlant = id => {
     return this.props.dispatch(
       addPlant(this.props.rainforestPlants.find(plant => plant.id === id))
+    );
+  };
+
+  selectWishPlant = id => {
+    return this.props.dispatch(
+      addWishPlant(this.props.rainforestPlants.find(plant => plant.id === id))
     );
   };
 
@@ -27,6 +34,7 @@ class RainforestContainer extends Component {
           <Rainforest
             rainforestPlants={this.props.rainforestPlants}
             selectPlant={this.selectPlant}
+            selectWishPlant={this.selectWishPlant}
             path={this.props.match.path}
           />
         </div>
