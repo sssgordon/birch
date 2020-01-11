@@ -1,4 +1,4 @@
-# :evergreen_tree: :shibiscus: Birch: A webshop with plants :evergreen_tree: :shibiscus:
+# :evergreen_tree: Birch: A webshop with plants :evergreen_tree:
 
 ## What is this project about 
 This webshop was created by [Gordon So](https://github.com/sssgordon) and [Melissa 't Hart](https://github.com/MelissaDTH). We worked on this during a project week at the Codaisseur Academy in week 4. Initially it was built only on the client-side, but later on in the academy we decided to also create a back-end ([The back-end repository can be found here](https://github.com/sssgordon/birch-server.git)). 
@@ -33,7 +33,7 @@ This webshop was created by [Gordon So](https://github.com/sssgordon) and [Melis
 
 ## Application features
 
- :floppy_disc: The project features: :floppy_disc:
+ :floppy_disk: The project features: :floppy_disk:
 
   - It has a fully working navigation bar;
   - At the homepage, you get information about the available plants.
