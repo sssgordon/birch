@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Basket from "./Basket";
 import { connect } from "react-redux";
 import { removePlant } from "../../actions/basket";
+import { Link } from "react-router-dom";
 
 class BasketContainer extends Component {
   deletePlant = id => {
@@ -12,9 +13,9 @@ class BasketContainer extends Component {
     // console.log(this.props.match.params);
     // this.props.basket.map(plant => plant.price).reduce((acc, currentPlant) => acc + currentPlant, 0)
 
-    if (this.props.basket.length === 0) {
-      return <p>Your basket is currently empty.</p>;
-    } else {
+    // if (this.props.basket.length === 0) {
+    //   return <p>Your basket is currently empty.</p>;
+    // } else {
       return (
         <div className="basket">
           <Basket
@@ -29,11 +30,17 @@ class BasketContainer extends Component {
               .map(plant => parseInt(plant.price))
               .reduce((acc, currentPlant) => acc + currentPlant, 0)}
           </p>
+          <Link to="/checkout">
+            <button className="checkout-button">
+              <b>GO TO CHECKOUT</b>
+            </button>
+          </Link>
+
         </div>
       );
     }
   }
-}
+// }
 
 const mapStateToProps = reduxState => {
   // console.log("MAP STATE TO BASKET CONTAINER");

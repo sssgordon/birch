@@ -11,6 +11,7 @@ import SnowContainer from "./components/Snow";
 import DesertContainer from "./components/Desert";
 import RainforestContainer from "./components/Rainforest";
 import DetailsContainer from "./components/Details/DetailsContainer";
+import CheckoutContainer from "./components/Checkout"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/basket" component={Basket} />
       <Route path="/product-details/:plant" component={DetailsContainer} />
       <Route exact path="/wishlist" component={Wishlist} />
+      <Route exact path="/checkout" component={CheckoutContainer} />
     </div>
   );
 }
