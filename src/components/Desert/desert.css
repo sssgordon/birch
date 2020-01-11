@@ -1,45 +1,25 @@
+.desert {
+    background-color: whitesmoke;
+}
+
 .desert main {
-  position: relative;
-  width: 950px;
-  margin: 0 auto;
+    /* position: relative; */
+    width: 50%;
+    margin: 0 auto;
 
-  border: dotted lightgray 1px;
-}
+    background-color: white;
 
-.desert .title {
-  position: absolute;
-  display: inline;
-  top: 120px;
-  left: 380px;
-  font-size: 50px;
-  background-color: white;
-  background-size: 20px;
-  padding: 10px;
-  z-index: 99;
-}
-
-.desert .banner-container {
-  width: 100%;
-  overflow: hidden;
-  height: 380px;
-}
-
-.desert .banner {
-  position: relative;
-  bottom: 180px;
-  width: 100%;
-  margin: 0 auto;
-  display: block;
+    /* border: dotted lightgray 1px; */
 }
 
 .desert .plants-display {
-  width: 100%;
-  /* padding: 30px; */
+    width: 100%;
+    /* padding: 30px; */
 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 
-  border: dotted lightgray 1px;
+    /* border: dotted lightgray 1px; */
 }
