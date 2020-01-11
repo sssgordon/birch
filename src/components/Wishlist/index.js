@@ -14,16 +14,18 @@ class WishlistContainer extends Component {
         } else {
             return (
                 <div className="wishlist">
-                    <p className="totalAmount">
-                        {" "}
-                        The total amount is: €
-                        {this.props.wishlist
-                            .map(plant => parseInt(plant.price))
-                            .reduce(
-                                (acc, currentPlant) => acc + currentPlant,
-                                0
-                            )}
-                    </p>
+                    <div className="checkout">
+                        <p className="totalAmount">
+                            {" "}
+                            The total amount is: €
+                            {this.props.wishlist
+                                .map(plant => parseInt(plant.price))
+                                .reduce(
+                                    (acc, currentPlant) => acc + currentPlant,
+                                    0
+                                )}
+                        </p>
+                    </div>
                     <Wishlist
                         deleteWishPlant={this.deleteWishPlant}
                         selectedWishPlants={this.props.wishlist}
