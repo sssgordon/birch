@@ -72,3 +72,23 @@ a:hover {
 .add-to-wishlist:hover {
     color: black;
 }
+
+.plant .delete-wish-plant {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: #439946;
+    transition: 0.3s;
+}
+
+.plant .delete-wish-plant:focus {
+    outline-color: #439946;
+}
+
+.plant .delete-wish-plant:hover {
+    color: black;
+}
