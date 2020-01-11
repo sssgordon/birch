@@ -3,23 +3,17 @@
 }
 
 .desert main {
-    /* position: relative; */
     width: 50%;
     margin: 0 auto;
 
     background-color: white;
-
-    /* border: dotted lightgray 1px; */
 }
 
 .desert .plants-display {
     width: 100%;
-    /* padding: 30px; */
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-
-    /* border: dotted lightgray 1px; */
 }
