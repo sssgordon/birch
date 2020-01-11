@@ -1,58 +1,97 @@
 .plant {
-  width: 350px;
-  height: 500px;
-  border: solid lightgray 1px;
-  margin: 30px;
+    width: 350px;
+    /* height: 500px; */
+    border: solid lightgray 1px;
+    margin: 30px;
 }
 
-.plant, a:link, a:visited {
-  text-decoration: none;
-  color: rgb(57, 57, 57);
+.plant,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    transition: 0.3s;
 }
 
-.plant, a:hover {
-  color: #439946;
+.plant,
+a:hover {
+    color: #439946;
 }
 
-.plant .image-container {
-  height: 330px;
-  overflow: hidden;
+.plant .plant__image-container {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+
+    /* text-align: center; */
 }
 
-.plant img {
-  width: 100%;
-  display: block;
-  margin: 0 auto;
+.plant .plant__image {
+    /* width: 100%;
+    display: block;
+    margin: 0 auto; */
+    /* object-fit: fill; */
+    /* object-position: 50% 50%; */
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+
+    /* min-width: 100%;
+    min-height: 100%; */
+    /* min-width: 100%; */
 }
 
-.plant-info {
-  padding: 15px 15px 15px 25px;
-  border-top: solid lightgray 1px;
+.plant__description {
+    padding-left: 30px;
+    margin-bottom: 30px;
 }
 
-.plant-info h2,
-h4,
-h5 {
-  margin: 5px 0;
+.plant .add-to-basket,
+.add-to-wishlist {
+    position: relative;
+    width: 50%;
+    height: 60px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: #439946;
+    transition: 0.3s;
 }
 
-.plant .add-to-basket, .add-to-wishlist {
-  position: relative;
-  bottom: -8px;
-  width: 100%;
-  height: 52px;
-  border: none;
-  background: #439946;
-  font-size: 20px;
-  cursor: pointer;
-  color: white;
-  transition: 0.3s;
+.plant .add-to-basket:focus,
+.add-to-wishlist:focus {
+    outline-color: #439946;
 }
 
-.plant .add-to-basket:hover {
-  background: #43ac46;
+.plant .add-to-basket:hover,
+.add-to-wishlist:hover {
+    color: black;
 }
 
-.plant .add-to-wishlist:hover {
-  background: #43ac46;
+.plant .delete-wish-plant,
+.delete-plant {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: none;
+    background: white;
+    font-size: 20px;
+    cursor: pointer;
+    color: #439946;
+    transition: 0.3s;
+}
+
+.plant .delete-wish-plant:focus,
+.delete-plant:focus {
+    outline-color: #439946;
+}
+
+.plant .delete-wish-plant:hover,
+.delete-plant:hover {
+    color: black;
 }

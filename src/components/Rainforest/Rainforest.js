@@ -1,7 +1,7 @@
 import React from "react";
 
 import Plant from "../utils/Plant";
-import Banner from "../Banner";
+import Banner from "../Banner/Banner";
 import "./rainforest.css";
 
 export default function Rainforest(props) {
@@ -10,7 +10,7 @@ export default function Rainforest(props) {
             <main>
                 <Banner
                     title="RAINFOREST"
-                    img="https://images.pexels.com/photos/927414/pexels-photo-927414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    img="https://images.unsplash.com/photo-1535025075092-5a1cf795130b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
                 />
                 <div className="plants-display">
                     {props.rainforestPlants.map(plant => {

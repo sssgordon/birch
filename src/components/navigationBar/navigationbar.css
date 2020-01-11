@@ -1,37 +1,43 @@
-.navbar-div {
-  border: 1px solid black;
-  overflow: hidden;
-  padding: 14px 16px;
-  font-size: 20px;
+.navigation {
+    /* width: 100vw; */
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    padding: 15px 0;
+    font-size: 20px;
+
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
 }
 
-.section-navbar {
-  text-transform: uppercase;
-  list-style-type: none;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+.navigation__header {
+    display: flex;
+    justify-content: space-around;
 }
 
-.section-navbar a {
-  text-decoration: none;
-  color: black;
+.navigation__header a {
+    text-decoration: none;
+    color: black;
 }
 
-.section-navbar a:hover {
-  color: seagreen;
+.navigation__header a:hover {
+    color: seagreen;
 }
 
-.basket-button, .wishlist-button {
-  background-color: white;
-  border: solid black 1px;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: 0.3s;
+.basket-button,
+.wishlist-button {
+    background-color: seagreen;
+    border: solid seagreen 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
-.basket-button:hover, .wishlist-button:hover {
-  background-color: #439946;
-  color: white;
+.basket-button:hover,
+.wishlist-button:hover {
+    background-color: white;
+    color: seagreen;
 }

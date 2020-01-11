@@ -1,7 +1,7 @@
 import React from "react";
 
 import Plant from "../utils/Plant";
-import Banner from "../Banner";
+import Banner from "../Banner/Banner";
 import "./snow.css";
 
 export default function Snow(props) {
@@ -10,7 +10,7 @@ export default function Snow(props) {
             <main>
                 <Banner
                     title="SNOW"
-                    img="https://images.pexels.com/photos/954710/pexels-photo-954710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    img="https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1383&q=80"
                 />
                 <div className="plants-display">
                     {props.snowPlants.map(plant => {

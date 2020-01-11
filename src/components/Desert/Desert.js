@@ -1,7 +1,7 @@
 import React from "react";
 
 import Plant from "../utils/Plant";
-import Banner from "../Banner";
+import Banner from "../Banner/Banner";
 import "./desert.css";
 
 export default function Desert(props) {
@@ -10,7 +10,7 @@ export default function Desert(props) {
             <main>
                 <Banner
                     title="DESERT"
-                    img="https://images.pexels.com/photos/80454/tree-desert-namibia-dead-vlei-80454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+                    img="https://images.unsplash.com/photo-1488197047962-b48492212cda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80"
                 />
                 <div className="plants-display">
                     {props.desertPlants.map(plant => {
