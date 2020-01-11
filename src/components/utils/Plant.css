@@ -73,7 +73,8 @@ a:hover {
     color: black;
 }
 
-.plant .delete-wish-plant {
+.plant .delete-wish-plant,
+.delete-plant {
     position: relative;
     width: 100%;
     height: 60px;
@@ -85,10 +86,12 @@ a:hover {
     transition: 0.3s;
 }
 
-.plant .delete-wish-plant:focus {
+.plant .delete-wish-plant:focus,
+.delete-plant:focus {
     outline-color: #439946;
 }
 
-.plant .delete-wish-plant:hover {
+.plant .delete-wish-plant:hover,
+.delete-plant:hover {
     color: black;
 }

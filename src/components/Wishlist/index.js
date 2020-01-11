@@ -10,7 +10,7 @@ class WishlistContainer extends Component {
 
     render() {
         if (this.props.wishlist.length === 0) {
-            return <p>Your wishlist is currently empty.</p>;
+            return <p className="empty">Your wishlist is currently empty.</p>;
         } else {
             return (
                 <div className="wishlist">
