@@ -5,6 +5,15 @@
   margin: 30px;
 }
 
+.plant, a:link, a:visited {
+  text-decoration: none;
+  color: rgb(57, 57, 57);
+}
+
+.plant, a:hover {
+  color: #439946;
+}
+
 .plant .image-container {
   height: 330px;
   overflow: hidden;

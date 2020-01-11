@@ -2,10 +2,8 @@
   position: relative;
   width: 950px;
   margin: 0 auto;
-
   border: dotted lightgray 1px;
 }
-
 
 .checkout .title {
   position: absolute;
@@ -53,10 +51,8 @@
 }
 
 .totalAmount-checkout {
-  padding: 15px 15px 15px 25px;
-  /* border-top: solid lightgray 1px; */
   width: 150px;
-  margin: auto;
-  line-height: 55px;
-
+  margin: auto;  
+  line-height: 65px;
+  font-size: 25px;
 }
