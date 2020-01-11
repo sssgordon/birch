@@ -38,9 +38,11 @@ export default function Plant(props) {
                 </Link>
                 <div className="plant__info">
                     <div className="plant__description">
-                        <h2>{props.name}</h2>
-                        <h5>{props.description}</h5>
-                        <h4>{props.price}</h4>
+                        <Link to={`/product-details/${props.name}`}>
+                            <h2>{props.name}</h2>
+                            <h5>{props.description}</h5>
+                            <h4>{props.price}</h4>
+                        </Link>
                     </div>
                     <button
                         className="delete-wish-plant"
