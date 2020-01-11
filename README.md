@@ -1,5 +1,7 @@
 # :evergreen_tree: Birch: A Webshop with Plants :evergreen_tree:
 
+![basket page](https://github.com/sssgordon/birch/blob/development/public/screenshot.png)
+
 ## What this project is about 
 This webshop was created by [Gordon So](https://github.com/sssgordon) and [Melissa 't Hart](https://github.com/MelissaDTH). We worked on this during a 3-day project week in the early stages of the Codaisseur Academy. The goal was to familiarize ourselves with **React** and **Redux**. Initially the project was built only on the client-side, but later on in the academy we decided to also create a back-end.
 
