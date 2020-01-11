@@ -1,17 +1,31 @@
 import React, { Component, Fragment } from "react";
-// import Checkout from "./Checkout";
 import { connect } from "react-redux";
 import { Col, Form, Button } from "react-bootstrap";
+import "./Checkout.css";
 
 class CheckoutContainer extends Component {
-  componentDidMount() {
-    // this.props.dispatch(getPlants());
-  }
-
   render() {
     return (
-      <Fragment>
-        <Form>
+      <div className="checkout">
+        <main>
+          <h1 className="title">CHECKOUT</h1>
+          <div className="banner-container">
+            <img
+              className="banner"
+              src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+            />
+          </div>
+        </main>
+        <Form className="checkout-form">
+        <p className="totalAmount-checkout">
+          {" "}
+          <b>TOTAL: €
+          {this.props.basket
+            .map(plant => parseInt(plant.price))
+            .reduce((acc, currentPlant) => acc + currentPlant, 0)}
+            </b>
+        </p>
+
           <Form.Row>
             <Form.Group as={Col} controlId="formGridFirstName">
               <Form.Label>First name</Form.Label>
@@ -59,21 +73,14 @@ class CheckoutContainer extends Component {
           </Form.Row>
 
           <Form.Group id="formGridCheckbox">
-            <Form.Check type="checkbox" label="Register as new account" />
+            <Form.Check type="checkbox" label="Register as a new account" />
           </Form.Group>
 
-          <Button variant="primary" type="submit">
-            Submit
-          </Button>
+          <button type="submit" className="checkout-submit-btn">
+            SUBMIT
+          </button>
         </Form>
-        <p className="totalAmount">
-          {" "}
-          TOTAL: €
-          {this.props.basket
-            .map(plant => parseInt(plant.price))
-            .reduce((acc, currentPlant) => acc + currentPlant, 0)}
-        </p>
-      </Fragment>
+      </div>
     );
   }
 }
