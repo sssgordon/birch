@@ -3,30 +3,11 @@
 }
 
 .home main {
-    position: relative;
-    width: 950px;
+    width: 50%;
     margin: 0 auto;
     background-color: white;
 
     /* border: dotted lightgray 1px; */
-}
-
-.home .title {
-    position: absolute;
-    display: inline;
-    top: 130px;
-    left: 140px;
-    font-size: 40px;
-    background-color: white;
-    /* background-size: 20px; */
-    padding: 10px;
-}
-
-.home .banner {
-    width: 100%;
-    height: 380px;
-    margin: 0 auto;
-    display: block;
 }
 
 .home .plants-display {

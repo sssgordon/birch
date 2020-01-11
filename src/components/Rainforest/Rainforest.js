@@ -1,7 +1,7 @@
 import React from "react";
 
 import Plant from "../utils/Plant";
-import Banner from "../Banner";
+import Banner from "../Banner/Banner";
 import "./rainforest.css";
 
 export default function Rainforest(props) {
