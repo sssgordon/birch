@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Basket from "./Basket";
 import { connect } from "react-redux";
 import { removePlant } from "../../actions/basket";
+import { Link } from "react-router-dom";
 
 class BasketContainer extends Component {
   deletePlant = id => {
@@ -9,26 +10,31 @@ class BasketContainer extends Component {
   };
 
   render() {
-    // console.log(this.props.match.params);
-    // this.props.basket.map(plant => plant.price).reduce((acc, currentPlant) => acc + currentPlant, 0)
-
     if (this.props.basket.length === 0) {
       return <p>Your basket is currently empty.</p>;
     } else {
       return (
         <div className="basket">
+          <p className="totalAmount">
+            {" "}
+            <b>
+              TOTAL AMOUNT: €
+              {this.props.basket
+                .map(plant => parseInt(plant.price))
+                .reduce((acc, currentPlant) => acc + currentPlant, 0)}
+            </b>
+          </p>
+
           <Basket
             deletePlant={this.deletePlant}
             selectedPlants={this.props.basket}
             path={this.props.match.path}
           />
-          <p className="totalAmount">
-            {" "}
-            The total amount is: €
-            {this.props.basket
-              .map(plant => parseInt(plant.price))
-              .reduce((acc, currentPlant) => acc + currentPlant, 0)}
-          </p>
+          <Link to="/checkout">
+            <button className="checkout-button">
+              <b>Go to checkout</b>
+            </button>
+          </Link>
         </div>
       );
     }
@@ -36,7 +42,6 @@ class BasketContainer extends Component {
 }
 
 const mapStateToProps = reduxState => {
-  // console.log("MAP STATE TO BASKET CONTAINER");
   return {
     basket: reduxState.basket
   };

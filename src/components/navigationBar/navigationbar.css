@@ -31,12 +31,7 @@
   transition: 0.3s;
 }
 
-.basket-button:hover {
+.basket-button:hover, .wishlist-button:hover {
   background-color: #439946;
-  color: white;
-}
-
-.wishlist-button:hover {
-  background-color: #49c24d;
   color: white;
 }

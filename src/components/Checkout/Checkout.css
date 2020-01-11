@@ -1,0 +1,58 @@
+.checkout main {
+  position: relative;
+  width: 950px;
+  margin: 0 auto;
+  border: dotted lightgray 1px;
+}
+
+.checkout .title {
+  position: absolute;
+  display: inline;
+  top: 120px;
+  left: 350px;
+  font-size: 50px;
+  background-color: white;
+  background-size: 20px;
+  padding: 10px;
+  z-index: 99;
+}
+
+.checkout .banner-container {
+  width: 100%;
+  overflow: hidden;
+  height: 380px;
+}
+.checkout .banner {
+  position: relative;
+  bottom: 90px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.checkout-submit-btn {
+  position: relative;
+  bottom: -8px;
+  width: 100px;
+  height: 52px;
+  border: none;
+  background: #439946;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.checkout-form {
+  padding: 15px 15px 15px 25px;
+  width: 950px;
+  line-height: 35px;
+  margin: auto;
+}
+
+.totalAmount-checkout {
+  width: 150px;
+  margin: auto;  
+  line-height: 65px;
+  font-size: 25px;
+}
