@@ -1,5 +1,7 @@
 # :evergreen_tree: Birch: A Webshop with Plants :evergreen_tree:
 
+## :point_right: [Checkout the deployed version here!](http://enigmatic-inlet-27404.herokuapp.com/) :point_left:
+
 ![basket page](https://github.com/sssgordon/birch/blob/development/public/screenshot.png)
 
 ## What this project is about 
