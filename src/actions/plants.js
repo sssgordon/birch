@@ -1,5 +1,5 @@
 // base URL for the backend
-const baseURL = 'https://tranquil-shelf-90083.herokuapp.com/'
+const baseURL = 'https://tranquil-shelf-90083.herokuapp.com'
 
 //PLANTS
 export const SET_PLANTS = "SET_PLANTS";
