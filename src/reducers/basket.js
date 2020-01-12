@@ -1,5 +1,5 @@
 export default (state = [], action = {}) => {
-  console.log("REDUCER: BASKET");
+  // console.log("REDUCER: BASKET");
   switch (action.type) {
     case "ADD_PLANT":
       return [...state, { ...action.payload }];

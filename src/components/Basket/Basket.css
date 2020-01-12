@@ -1,46 +1,38 @@
-/* .basketplant {
-  width: 350px;
-  height: 500px;
-  margin: 30px;
-}
-
-.basketplant img {
-  width: 200px;
-}
-
-.section-basket {
-  border: solid lightgray 1px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.delete-plant {
-  position: relative;
-  bottom: -8px;
-  width: 200px;
-  height: 52px;
-  border: none;
-  background: #439946;
-  font-size: 20px;
-  cursor: pointer;
-  color: white;
-  transition: 0.3s;
-}
-
-.totalAmount {
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-} */
-
-.section-basketplants {
-}
-
 .basket {
-  display: flex;
-  flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
 }
 
-.delete-plant {
+.basket-plants {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.checkout {
+    width: 100%;
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+.checkout-button {
+    border: 1px solid #439946;
+    background-color: white;
+
+    font-size: 25px;
+    font-weight: 400;
+    color: #439946;
+
+    padding: 5px 10px;
+
+    transition: 0.3s;
+}
+
+.checkout-button:hover {
+    color: white;
+    background-color: #439946;
 }

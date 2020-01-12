@@ -1,0 +1,46 @@
+.details {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.details__container {
+    width: 80%;
+    height: 93vh;
+    margin: 0 auto;
+
+    background-color: white;
+
+    display: flex;
+}
+
+.details__img-container {
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+}
+
+.details__container img {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.details__info {
+    width: 60%;
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.details__info h3 {
+    margin-bottom: 40px;
+}
+
+.details__info p {
+    margin-bottom: 100px;
+}
+
+.return {
+    font-size: 20px;
+}

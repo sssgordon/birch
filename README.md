@@ -1,68 +1,112 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :evergreen_tree: Birch: A Webshop with Plants :evergreen_tree:
 
-## Available Scripts
+![basket page](https://github.com/sssgordon/birch/blob/development/public/screenshot.png)
 
-In the project directory, you can run:
+## What this project is about 
+This webshop was created by [Gordon So](https://github.com/sssgordon) and [Melissa 't Hart](https://github.com/MelissaDTH). We worked on this during a 3-day project week in the early stages of the Codaisseur Academy. The goal was to familiarize ourselves with **React** and **Redux**. Initially the project was built only on the client-side, but later on in the academy we decided to also create a back-end ([Back-end repository](https://github.com/sssgordon/birch-server.git)).
 
-### `npm start`
+In the webshop there are:
+ * Product details
+ * Wishlist
+ * Basket
+ * Checkout
 
-Runs the app in the development mode.<br />
+## Table of contents 
+- **[Technologies used](#technologies-used)**
+- **[Goals for this project](#goals-for-this-project)**
+- **[Application features](#application-features)**
+- **[Project set-up](#project-set-up)**
+
+## Technologies used 
+
+<b>Front-end</b>
+  * React
+      * Components and props
+      * Routers
+  * Redux
+      * Action creators
+      * Thunks
+      * Reducers
+  * React-bootstrap
+
+<b>Back-end</b>
+  * Express
+      * REST API
+  * Sequelize
+  * Cors
+  * Body-parser
+  * Docker
+  
+## Goals for this project
+
+* Practice with creating an app from scratch with React and Redux
+    * Make a webshop that contains a cart and a wishlist
+* Work together in a team
+* Work in an Agile environment with the SCRUM methodology
+* Practice styling
+
+## Application features
+
+ :floppy_disk: Project features :floppy_disk:
+
+  * It has a fully working **navigation bar**
+  * Clicking on those plants will redirect you to their **details page**
+  * The plants are divided in three categories: Desert, Snow and Rainforest. Each category has its own page with the corresponding plants
+  * Customers can add plants to a **wishlist**
+  * They can also add plants to the **cart**, which is a separate page that shows which plants are selected as well as the **total price**
+  * When there are plants in the cart, a button that directs the customer to the **checkout page** becomes available. Over there, they can fill in their personal information. No further action or redirection to an actual payment page is yet available here
+  * The webshop has an overall styling, mostly done with CSS and React-Bootstrap
+
+## Project set-up
+<i>Type in your terminal inside the project directory</i>
+
+<b>Front-end</b>
+
+### 1. Clone the repository
+```
+git clone https://github.com/sssgordon/birch.git
+```
+
+### 2. Install all dependencies 
+```
+npm install
+```
+
+## 3. To start a development server:
+
+``` 
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
+<hr>
+<b>Back-end</b>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<i> You will need to create a container on your computer for the database, we used [Docker](http://docker.com/).</i>
 
-### `npm run build`
+## 1. Clone the repository 
+```
+git clone https://github.com/sssgordon/birch-server.git
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Install all dependencies
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 3. To start the server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` 
+nodemon .
+```
 
-### `npm run eject`
+## 4. Start the database:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+``` 
+Open Docker, connect with the password 'secret'
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
