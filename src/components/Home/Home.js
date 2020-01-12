@@ -12,11 +12,6 @@ export default function Home(props) {
                     title="PLANTS FOR THE ADVENTUROUS"
                     img="https://images.unsplash.com/photo-1505418751847-665ed4106c65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                 />
-                {/* <h1 className="title">PLANTS FOR THE ADVENTUROUS</h1>
-                <img
-                    className="banner"
-                    src="http://localhost:3000/assets/images/home.jpeg"
-                /> */}
                 <div className="plants-display">
                     {props.plants.map(plant => {
                         return (
